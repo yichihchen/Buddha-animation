@@ -1,23 +1,38 @@
-$color: #00cc99;
-
-.header {
+//容器
+.card1 {
+  width: 200px;
   height: 200px;
-  background-color: #00cc99;
 }
 
-.footer {
+
+.card2 {
+  width: 200px;
   height: 200px;
-  background-color: #00cc99;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.card3 {
+  width: 200px;
+  height: 200px;
+}
+
+.card4 {
+  width: 200px;
+  height: 200px;
+}
+
+.card5 {
+  width: 200px;
+  height: 200px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+//flex
+.flex-w {
   display: flex;
-  transition: all 0.5s;
-  &:hover {
-    width: 200px;
-    background-color: $color;
-  }
+  flex-wrap: wrap;
 }
