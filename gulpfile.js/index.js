@@ -11,12 +11,12 @@ console.log(`Current mode：${options.env}`);
 
 function copyFile() {
   return gulp.src(envOptions.copyFile.src)
-  .pipe(gulp.dest(envOptions.copyFile.path))
-  .pipe(
-    browserSync.reload({
-      stream: true,
-    }),
-  );
+    .pipe(gulp.dest(envOptions.copyFile.path))
+    .pipe(
+      browserSync.reload({
+        stream: true,
+      }),
+    );
 }
 
 function layoutHTML() {
@@ -87,9 +87,9 @@ function browser() {
 
 function clean() {
   return gulp.src(envOptions.clean.src, {
-      read: false,
-      allowEmpty: true,
-    })
+    read: false,
+    allowEmpty: true,
+  })
     .pipe($.clean());
 }
 
@@ -113,3 +113,4 @@ exports.clean = clean;
 exports.build = gulp.series(clean, copyFile, layoutHTML, sass, babel, vendorsJs);
 
 exports.default = gulp.series(clean, copyFile, layoutHTML, sass, babel, vendorsJs, gulp.parallel(browser, watch));
+
