@@ -1,6 +1,7 @@
 //背景
 .card {
   background-color: rgb(247, 226, 196);
+
 }
 
 //文字
@@ -100,4 +101,17 @@ h1 {
 .relic-down {
   position: absolute;
   z-index: 1;
+}
+
+//按鈕
+.submit-product {
+  width: 120px;
+  height: 56px;
+  font-weight: bold;
+  background-color: #932a27;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 24px;
 }

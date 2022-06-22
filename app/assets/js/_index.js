@@ -3,6 +3,8 @@
 
 
 
+
+
 $(document).ready(() => {
   console.log('HesSchool Hello!');
 
@@ -43,8 +45,6 @@ $(document).ready(() => {
   $(".relic-down").click(function () {
     $(".relic-up").show()
   })
-
-
 
 
 });
