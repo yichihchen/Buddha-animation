@@ -20,6 +20,7 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 15px 15px;
+  height: 100%;
 }
 
 //flex
@@ -62,6 +63,14 @@ body {
 
 .pb40 {
   padding-bottom: 40px;
+}
+
+.pt60 {
+  padding-top: 60px;
+}
+
+.pb80 {
+  padding-bottom: 80px;
 }
 
 //position
