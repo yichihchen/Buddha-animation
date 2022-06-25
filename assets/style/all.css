@@ -143,8 +143,7 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 15px 15px;
-  height: 100%; }
+  padding: 15px 15px; }
 
 .d-f {
   display: -webkit-box;
@@ -191,18 +190,29 @@ body {
 .pt60 {
   padding-top: 60px; }
 
+.pt80 {
+  padding-top: 80px; }
+
+.pt100 {
+  padding-top: 100px; }
+
 .pb80 {
   padding-bottom: 80px; }
+
+.pb100 {
+  padding-bottom: 100px; }
+
+.pb120 {
+  padding-bottom: 120px; }
 
 .po-relative {
   position: relative; }
 
 .card {
-  background-color: #f7e2c4;
-  height: 100%; }
+  background-color: white; }
 
 h1 {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: bold;
   color: #650300; }
 
@@ -290,13 +300,12 @@ h1 {
   font-size: 24px; }
 
 .product {
-  background-color: #f7e2c4; }
+  background-color: white; }
 
 h1 {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: bold;
-  color: #650300;
-  padding: 20px 0px 32px 0px; }
+  color: #650300; }
 
 .card1 {
   width: 200px;
