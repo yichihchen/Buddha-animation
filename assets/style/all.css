@@ -143,7 +143,8 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 15px 15px; }
+  padding: 15px 15px;
+  height: 100%; }
 
 .d-f {
   display: -webkit-box;
@@ -187,17 +188,23 @@ body {
 .pb40 {
   padding-bottom: 40px; }
 
+.pt60 {
+  padding-top: 60px; }
+
+.pb80 {
+  padding-bottom: 80px; }
+
 .po-relative {
   position: relative; }
 
 .card {
-  background-color: #f7e2c4; }
+  background-color: #f7e2c4;
+  height: 100%; }
 
 h1 {
   font-size: 48px;
   font-weight: bold;
-  color: #650300;
-  padding: 20px 0px 32px 0px; }
+  color: #650300; }
 
 .card1 {
   width: 200px;
